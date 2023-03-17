@@ -1,6 +1,4 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 /**
  * main - Entry point
  * Description: printing the alphabets
@@ -10,7 +8,7 @@
 int main(void)
 {
 	char character = 'z';
-	
+
 	while (character >= 'a')
 	{
 		putchar(character);
