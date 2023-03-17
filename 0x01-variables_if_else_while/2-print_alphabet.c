@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - printing the alphabet in lowercase
+ * main - Entry point
+ * Description: printing the alphabets
  *
  * Return: always 0 (success)
  */
@@ -16,6 +17,5 @@ int main(void)
 		character++;
 	}
 	putchar('\n');
-
 	return (0);
 }
