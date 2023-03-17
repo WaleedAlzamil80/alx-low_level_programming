@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main : print + - 0
- * return : always (0) (success)
+ * main - printing the state of n varialbe
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {
