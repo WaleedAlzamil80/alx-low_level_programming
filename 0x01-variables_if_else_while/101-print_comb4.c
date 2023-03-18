@@ -17,7 +17,7 @@ int main(void)
 		{
 			int z = j + 1;
 
-			while( z <= 9)
+			while(z <= 9)
 			{
 				putchar(i + 48);
 				putchar(j + 48);
