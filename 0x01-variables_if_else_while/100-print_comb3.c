@@ -7,19 +7,26 @@
  */
 int main(void)
 {
-	for (int i = 0; i <= 8; i++)
+	int i = 0;
+
+	while (i <= 8)
 	{
-		for (int j = i+1; j <= 9; j++)
+		int j = i+1;
+
+		while (j <= 9)
 		{
 			putchar(i+48);
 			putchar(j+48);
 			if (i == 8 && j ==9)
 			{
+				j++;
 				break;
 			}
 			putchar(',');
 			putchar(' ');
+			j++;
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
