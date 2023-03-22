@@ -1,6 +1,7 @@
+#include "main.h"
 #include <stdio.h>
  /**
- * main - fibonacci <3
+ * main - fibonacci <3 Prints the numbers
  *
  * Purpose - no hardcode
  * Description: prints the first 98 Fibonacci numbers,
