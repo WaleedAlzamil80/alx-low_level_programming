@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	_islower();
+	_isalpha();
 	return (0);
 }
