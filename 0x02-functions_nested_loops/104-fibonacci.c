@@ -3,6 +3,7 @@
  * main - fibonacci <3
  *
  * Purpose - no hardcode
+ * Description: prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line
  *
  * Return:  (Success)
  */
@@ -18,7 +19,7 @@ int main(void)
 	unsigned long int aft2;
 
 	printf("%lu", bef);
-	
+
 	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", aft);
