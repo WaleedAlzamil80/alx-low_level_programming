@@ -6,10 +6,7 @@
  * Description: checking if theargument c is a letter
  * Return: 1 if the argument c is alpha, 0 otherwise
  */
-int _islower(int c)
+int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z')||(c >= 'A' && c <= 'z'))
-		return (1);
-	else
-		return (0);
+	return((c >= 'a' && c <= 'z')||(c >= 'A' && c <= 'z'));
 }
