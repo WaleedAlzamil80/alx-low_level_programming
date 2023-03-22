@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * print_last_digit  - my function
+ * @n: is the number to return its last digit
+ *
+ * Description: returning the last digit of the arguemnt
+ *
+ * Return: return the last digit of the function
+ */
+int print_last_digit(int n)
+{
+	return (n % 10);
+}
