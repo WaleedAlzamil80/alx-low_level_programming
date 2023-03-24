@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-void print_square(int size)
+void print_triangle(int size)
 {
 	int row, column;
 
