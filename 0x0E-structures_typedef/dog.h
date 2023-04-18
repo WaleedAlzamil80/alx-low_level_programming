@@ -7,9 +7,10 @@
  * @age: dog's age
  * @owner: owner's dog
  *
+ * Description: just a small dog struct
  */
 
-#define struct dog
+struct dog
 {
 	char *name;
 	float age;
