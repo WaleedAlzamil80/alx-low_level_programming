@@ -14,16 +14,14 @@ unsigned int binary_to_uint(const char *b)
 	int bit_n = 0;
 	int sum = 0;
 
-	if(!b)
+	if(!(*b))
 		return (0);
-	while(!b)
+
+	while(b[bit_n] != '\0')
 	{
-		if(*b == '1')
-			sum = sum + (2 << bit_n);
-		else if(*b == '0')
-			sum = sum
-		else
+		if (b[bit_n] < '0' || b[bit_n] > '1')
 			return (0);
+		sum = 2 * sum + (b[bit_n] - '0');
 		bit_n++;
 	}
 	return (sum);
