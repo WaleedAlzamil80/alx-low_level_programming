@@ -6,21 +6,20 @@
  *
  * Return: the converted number
  */
-
 unsigned int binary_to_uint(const char *b)
 {
-	int bit_n = 0;
-	int sum = 0;
+	int i;
+	unsigned int dec_val = 0;
 
-	if (!(*b))
+	if (!b)
 		return (0);
 
-	while (b[bit_n] != '\0')
+	for (i = 0; b[i]; i++)
 	{
-		if (b[bit_n] < '0' || b[bit_n] > '1')
+		if (b[i] < '0' || b[i] > '1')
 			return (0);
-		sum = 2 * sum + (b[bit_n] - '0');
-		bit_n++;
+		dec_val = 2 * dec_val + (b[i] - '0');
 	}
-	return (sum);
+
+	return (dec_val);
 }
