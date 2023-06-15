@@ -9,4 +9,5 @@
 ```ar rcs libmy.a <your_compiled_files.o>```
 ## Now you can invoke your library as follows:
 ```gcc <your_main_program.c> -L. -lmy -o prog```
+## excute the program as follows:
 ```./prog```
