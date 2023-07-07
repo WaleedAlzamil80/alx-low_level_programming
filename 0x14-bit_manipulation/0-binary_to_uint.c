@@ -3,8 +3,9 @@
  * binary_to_uint -  converts a binary number to an unsigned int.
  * @b: pointer to a char
  *
- * Return: unsigned int that represent the char passed.
+ * Return: unsigned int that represent the char passed
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 	int i = 0, n = 0, len = 0;
