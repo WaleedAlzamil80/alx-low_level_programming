@@ -11,7 +11,7 @@ unsigned int binary_to_uint(const char *b)
 	int i = 0, n = 0, len = 0;
 	unsigned int k = 1;
 
- 	while (b[len] != '\0')
+	while (b[len] != '\0')
 	{
 		len++;
 	}
