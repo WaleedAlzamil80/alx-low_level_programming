@@ -11,23 +11,19 @@ int _strlen(char *s)
 {
 	int  i = 0;
 
-	if (!s)
-		return (0);
-
-	while (*s++)
+	while (s[i] != '\0')
 		i++;
 	return (i);
 }
 
 /**
- * create_file - creates a file
+ * append_text_to_file - appends text at the end of a file
  * @filename: the name of the file
  * @text_content: the content to be written
  *
  * Return: (1) on success and (-1) otherwise
  */
-
-int create_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 	int fOpen;
 	ssize_t num_bytes = 0, len = _strlen(text_content);
