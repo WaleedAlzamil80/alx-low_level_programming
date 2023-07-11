@@ -14,7 +14,7 @@
  * Return: (1) on success (0) on failure
  */
 
-int main(int argv, char **argv)
+int main(int argc, char **argv)
 {
 	int from_fd = 0, to_fd = 0;
 	ssize_t b;
